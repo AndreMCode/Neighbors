@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <Style src="MainMenu.uss" />
+    <ui:VisualElement class="menu-root">
+
+        <!-- SEMI-PERSISTENT TITLE -->
+        <ui:Label name="game-title" text="EVACUATION" class="title" />
+
+        <!-- MAIN MENU -->
+        <ui:VisualElement name="main-menu-container" class="menu-container">
+            <ui:Button name="play-button" text="PLAY" class="menu-button"/>
+            <ui:Button name="options-button" text="OPTIONS" class="menu-button"/>
+            <ui:Button name="quit-button" text="QUIT" class="menu-button"/>
+        </ui:VisualElement>
+
+        <!-- OPTIONS MENU -->
+        <ui:VisualElement name="options-container" class="menu-container" style="display: none;">
+            <ui:Button name="btn-sound" text="SOUND SETTINGS" class="unconfigured-button"/>
+            <ui:Button name="btn-controls" text="CONTROL SETTINGS" class="unconfigured-button"/>
+            <ui:Button name="btn-back-options" text="BACK" class="menu-button back-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <!-- PERSISTENT VERSION -->
+    <ui:Label name="game-version" text="v0.1.0" class="version-text" />
+</ui:UXML>

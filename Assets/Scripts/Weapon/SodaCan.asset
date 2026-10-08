@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64913a2e217c8d34886c31e4af3d38d5, type: 3}
+  m_Name: SodaCan
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponName: Soda Can
+  deliveryType: 1
+  weaponIcon: {fileID: 21300000, guid: ccaf0359650b3524e967170c1e01601b, type: 3}
+  maxAmmo: 100
+  startAmmo: 10
+  fireRate: 1
+  allowsMovementWhileFiring: 1
+  projectilePrefab: {fileID: 7945564121323575563, guid: 21f24dfcefaadeb428451fa76bf14be6, type: 3}
+  impactVfxPrefab: {fileID: 1211066816463279230, guid: 30b6adabd049f254689fb1e3fa327c6c, type: 3}
+  damage: 50
+  projectileSpeed: 12
+  maxRange: 3
+  knockbackForce: 16
+  lobDuration: 0.6
+  arcPeakHeight: 2
+  aoeRadius: 2

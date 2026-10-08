@@ -1,0 +1,111 @@
+.overlay-root {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.weapon-ring {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.125);
+    border-radius: 150px;
+    border-width: 4px;
+    border-color: rgba(255, 0, 0, 0.2);
+
+}
+
+.utility-ring {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.125);
+    border-radius: 150px;
+    border-width: 4px;
+    border-color: rgba(255, 255, 0, 0.2);
+}
+
+.page-indicator {
+    position: absolute;
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+}
+
+.radial-slot {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-color: rgba(20, 20, 20, 0.251);
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.1s;
+}
+
+.slot-icon {
+    width: 48px;
+    height: 48px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.slot-n {
+    top: 8px;
+    left: 114px;
+}
+
+.slot-ne {
+    top: 42px;
+    left: 186px;
+}
+
+.slot-e {
+    top: 114px;
+    left: 220px;
+}
+
+.slot-se {
+    top: 186px;
+    left: 186px;
+}
+
+.slot-s {
+    top: 220px;
+    left: 114px;
+}
+
+.slot-sw {
+    top: 186px;
+    left: 42px;
+}
+
+.slot-w {
+    top: 114px;
+    left: 8px;
+}
+
+.slot-nw {
+    top: 42px;
+    left: 42px;
+}
+
+.slot-highlighted {
+    border-color: rgb(255, 215, 0);
+    background-color: rgba(70, 60, 10, 0.95);
+    scale: 1.15;
+    border-width: 3px;
+}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c4244065e43d8d49aec1d42a0841eb7, type: 3}
+  m_Name: Decoy
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Decoy
+  itemIcon: {fileID: 21300000, guid: 32cd6b19204f24f41b264aa0d426da99, type: 3}
+  maxQuantity: 10
+  startQuantity: 1
+  consumeOnUse: 1
+  EffectType: 3
+  SpeedMultiplier: 1.5
+  EffectDuration: 20
+  DecoyPrefab: {fileID: 7743245431179355974, guid: 5ab8aaa8e8bd4f340aa7bdef484c5ba8, type: 3}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <Style src="GameOverOverlay.uss" />
+    <ui:VisualElement name="game-over-root" class="game-over-root" style="display: none">
+
+        <ui:VisualElement name="game-over-box" class="game-over-box">
+
+            <ui:Label
+                name="header-text"
+                class="header-text"
+                text="GAME OVER" />
+
+            <ui:Label
+                name="final-score-label"
+                class="score-text"
+                text="Score: 0" />
+
+            <ui:VisualElement
+                name="divider"
+                class="divider" />
+
+            <ui:Button
+                name="continue-button"
+                class="menu-btn"
+                text="CONTINUE" />
+
+            <ui:Button
+                name="quit-button"
+                class="menu-btn quit-btn"
+                text="QUIT TO MENU" />
+
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

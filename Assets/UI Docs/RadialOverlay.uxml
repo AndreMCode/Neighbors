@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <Style src="RadialOverlay.uss" />
+    <ui:VisualElement name="weapon-overlay-root" class="overlay-root">
+        <ui:VisualElement name="weapon-overlay-ring" class="weapon-ring" style="display: none">
+            <ui:Label name="page-indicator-label" text="PAGE 1" class="page-indicator"/>
+            <ui:VisualElement name="slot" class="radial-slot slot-n">
+                <ui:VisualElement name="slot-0" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-ne">
+                <ui:VisualElement name="slot-1" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-e">
+                <ui:VisualElement name="slot-2" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-se">
+                <ui:VisualElement name="slot-3" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-s">
+                <ui:VisualElement name="slot-4" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-sw">
+                <ui:VisualElement name="slot-5" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-w">
+                <ui:VisualElement name="slot-6" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-nw">
+                <ui:VisualElement name="slot-7" class="slot-icon"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="utility-overlay-root" class="overlay-root">
+        <ui:VisualElement name="utility-overlay-ring" class="utility-ring" style="display: none">
+            <ui:VisualElement name="slot" class="radial-slot slot-n">
+                <ui:VisualElement name="utility-slot-0" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-ne">
+                <ui:VisualElement name="utility-slot-1" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-e">
+                <ui:VisualElement name="utility-slot-2" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-se">
+                <ui:VisualElement name="utility-slot-3" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-s">
+                <ui:VisualElement name="utility-slot-4" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-sw">
+                <ui:VisualElement name="utility-slot-5" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-w">
+                <ui:VisualElement name="utility-slot-6" class="slot-icon"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="slot" class="radial-slot slot-nw">
+                <ui:VisualElement name="utility-slot-7" class="slot-icon"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

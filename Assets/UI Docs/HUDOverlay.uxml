@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <Style src="HUDOverlay.uss" />
+    <ui:VisualElement name="hud-root" class="hud-root">
+        <ui:VisualElement name="top-bar" class="top-bar">
+            
+            <!-- Left: Lives & Score -->
+            <ui:VisualElement class="hud-section left-section">
+                <ui:Label name="score-label" text="SCORE: 000000" class="hud-text" />
+                <ui:Label name="lives-label" text="LIVES: 2" class="hud-text" />
+            </ui:VisualElement>
+
+            <!-- Center: Player Health Bar -->
+            <ui:VisualElement class="hud-section center-section">
+                <ui:VisualElement class="health-bar-bg">
+                    <ui:VisualElement name="health-bar-fill" class="health-bar-fill" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <!-- Right: Keys -->
+            <ui:VisualElement class="hud-section right-section">
+                <ui:Label name="keys-label" text="KEYS: 0  S.KEY: 0" class="hud-text" />
+            </ui:VisualElement>
+
+        </ui:VisualElement>
+
+        <ui:VisualElement name="bottom-area" class="bottom-area">
+
+            <!-- Left: Intentionally Empty -->
+            <ui:VisualElement class="bottom-section bottom-left-section">
+            </ui:VisualElement>
+
+            <!-- Center: Dash Cooldown Meter -->
+            <ui:VisualElement class="bottom-section bottom-center-section">
+                <ui:VisualElement class="dash-cooldown-bg">
+                    <ui:VisualElement name="dash-cooldown-fill" class="dash-cooldown-fill" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <!-- Right: Weapon & Item Icons -->
+            <ui:VisualElement class="bottom-section bottom-right-section">                
+                <ui:VisualElement name="weapon-icon" class="weapon-icon">
+                    <ui:Label name="weapon-ammo-label" text="0" class="badge-text" />
+                </ui:VisualElement>
+                
+                <ui:VisualElement name="item-icon" class="item-icon">
+                    <ui:Label name="item-count-label" text="0" class="badge-text" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

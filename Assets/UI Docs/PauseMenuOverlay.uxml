@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <Style src="PauseMenuOverlay.uss" />
+    <ui:VisualElement name="pause-root" class="pause-root" style="display: none">
+
+        <ui:VisualElement name="pause-box" class="pause-box">
+
+            <ui:Label
+                text="PAUSED"
+                class="header-text" />
+
+            <ui:VisualElement class="divider" />
+
+            <ui:Button
+                name="resume-button"
+                text="RESUME"
+                class="menu-btn" />
+
+            <ui:Button
+                name="options-button"
+                text="OPTIONS"
+                class="menu-btn" />
+
+            <ui:Button
+                name="quit-button"
+                text="QUIT TO MENU"
+                class="menu-btn quit-btn" />
+
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>
